@@ -1,5 +1,58 @@
-<html>
-<head>
-</head>
-Rohit Garg
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+<form  method="post">
+  <div class="main-login-box">
+  <div class="login-box">
+    <h1>sign up</h1>
+    <div class="name">
+      <input type="text" class="t_name" required="">
+      <label class="l_name">Name</label>
+    </div>
+    <div class="phone">
+      <input type="number" class="t_phone" required="">
+      <label class="l_phone">Phone Number</label>
+    </div>
+    <div class="email">
+      <input type="email" placeholder="     "  class="t_email" required="">
+      <label class="l_email">Email</label>
+    </div>
+    <div class="gender">
+      <label>Gender</label>
+      <div class="male">
+      <input type="radio" checked name="rgender" value="Male" required="">
+      <label>Male</label>
+      </div>
+      <div class="fmail">
+      <input type="radio" name="rgender" required="" value="Female">
+      <label>Female</label>
+      </div>
+    </div>
+    <div class="pass">
+      <input type="checkbox" onclick="myFunction1()" class="showpass" value="">
+      <div class="main-pass">
+        <div class="showpassworddiv"></div>
+      <input type="password" class="t_pass"  required="" id="myInput1">
+      <label class="l_pass">Password</label>
+      </div>
+    </div>
+    <div class="c_pass">
+      <input type="checkbox" onclick="myFunction()" class="showpass" value="">
+      <div class="main-pass">
+        <div class="showpassworddiv"></div>
+        <input type="password"  class="t_c_pass" required="" id="myInput">
+        <label class="l_c_pass">Confirm Password</label>
+    </div>
+    </div>
+    <div class="sumbit-btn">
+      <label class="btn" >Register</label>
+    </div>
+  </div>
+</div>
+</form>
+  </body>
 </html>
